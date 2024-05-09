@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>取色器</title>
+    <link rel="stylesheet" href="./popup.css" type="text/css" media="all" />
+    <script src="./tinycolor.js"></script>
+</head>
+<body>
+    <!-- <button type="button" id="btn">按钮</button> -->
+    <div class="color-picker">
+        <!-- 颜色显示区域 -->
+        <div class="color-container">
+            <!-- 颜色色块 -->
+            <div class="color-show"></div>
+            <!-- <div id="rgb-str"></div>
+            <div id="hex8-str"></div>
+            <div id="hsl-str"></div> -->
+        </div>       
+
+        <!-- 颜色控制区 -->
+        <div class="color-control">
+            <!-- 颜色选择区 -->
+            <div class="color-move">
+                <canvas></canvas>
+                <div class="move"></div>
+            </div>
+
+            <!-- 透明度 -->
+            <div class="color-opacity">
+                <div class="color-opacity-show"></div>
+                <div class="slide"></div>
+            </div>
+
+            <!-- 色相选择 -->
+            <div class="hue">
+                <div class="slide"></div>
+            </div>
+        </div>
+
+        
+        <div class="color-copy">
+            <div id="rgb-str">
+            </div>
+            <div id="hex8-str">
+            </div>
+            <div id="hsl-str">
+            </div>
+            <img id="absorb" src="./public/qs.svg" alt="">
+        </div>
+    </div>
+    
+
+    <script src="./popup.js">
+
+    </script>
+    
+   
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ColorGrab-Plugin",
+    "version": "1.0.0",
+    "author": "Ruy5",
+    "description": "这是一个系统级取色盘插件",
+    "action": {
+        "default_icon": "public/logo.png",
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "256": "public/logo.png",
+        "128": "public/logo.png",
+        "64": "public/logo.png",
+        "32": "public/logo.png",
+        "16": "public/logo.png"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+
+}
